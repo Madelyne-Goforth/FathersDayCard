@@ -1,26 +1,28 @@
-
 <!DOCTYPE html>
-
-<html lang="en">    
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Father's Day Card</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="working.js"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Father's Day Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="working.js" defer></script>
+</head>
 <body>
-    <div class="card">
-        <h1>Happy Father's Day!</h1>
-        <button id="revealBtn" class="hidden">Open Card</button>
-        
+  <div class="card" id="card">
+    <div class="card-front">
+      <div class="card-front-image"></div>
     </div>
 
-    <div class="cardinside">
-        <h3 class>"Happy Father's Day!</h3>
-        <p>Thanks for everything that you do and for always being there; means a lot to me.</p>
-        <p>Love you, Dad!</p>
+    <div class="card-inside-L">
+      <div class="card-inside-L-photo"></div>
     </div>
+
+    <div class="card-inside-R">
+      <h3 class="card-inside-title">Happy Father's Day!</h3>
+      <p class="card-inside-content-L1">Thanks for everything that you do and for always being there; means a lot to me.</p>
+      <p class="card-inside-content-L2">Love you, Dad!</p>
+    </div>
+  </div>
 </body>
-
-
 </html>
-
